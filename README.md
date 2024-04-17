@@ -20,20 +20,6 @@ Klassifizierung der Schlafapnoe nach dem Apnoe-Hypopnoe-Index (AHI)
 
 ## Erste technische Dokumentation
 
-## Projektskizze
-Nach der ersten Analyse sind folgende Werte für die Indentifizierung des Schalfaphnoes wichtig:
-- Puls
-- Atemfrequenz
-- Sauerstoffsättigung
-- Schlafphase
-- Bewegungsdaten (Augen, Arme, Beine)
-- Generelle Daten (Alter, Geschlecht, Gewicht, Lebensstil usw.)
-- Pulsvariabilität
-- Hirnaktivität (Schlaflabor)
-- Elektrokardiogramm (EKG)
-- Körpertemperatur
-
-
 
 ## Technische Dokumentation
 ### Architektur
