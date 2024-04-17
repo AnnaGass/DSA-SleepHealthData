@@ -1,22 +1,24 @@
 # DSA-SleepHealthData
 
+## 1. Beschreibung der Problematik
+## a. Hintergrund
+Schlafapnoe ist eine weit verbreitete, aber oft unbemerkte schlafbezogene Atemstörung, die durch wiederholte Atemaussetzer während des Schlafs gekennzeichnet ist.
+Diese Unterbrechungen führen zu einer verminderten Sauerstoffversorgung des Körpers und stören das natürliche Schlafmuster.
+Unbehandelt kann Schlafapnoe zu ernsthaften gesundheitlichen Problemen wie Herz-Kreislauf-Erkrankungen, Diabetis und Schlaganfall führen.
+Aktuell erfolgt die Diagnose hauptsächlich durch aufwändige Polysomnographie-Tests in spezialisierten Schlaflaboren. Diese Tests erfordern, dass Patienten über Nacht in der Klink bleiben und an verschiedenen Sensoren angeschlossen werden, was logistisch als auch finanziell belastend ist und sich nicht für eine langfristige Überwachung eignet. Zudem können die Ergebnisse durch die ungewohnte, klinische Umgebung verzerrt sein.
 
-## Hintergrund
-Die Schlafapnoe ist eine weit verbreitete Schlafstörung, die Millionen von Menschen weltweit betrifft. 
-Sie ist zeignet sich durch wiederholte Atemaussetzer während des Schlafs aus, was zu einer verminderten Sauerstoffversorgung des Körpers und einer Störung des Schlafmusters führt. 
-Unbehandelt kann Schlafapnoe zu schwerwiegenden Gesundheitsproblemen wie Herz-Kreislauf-Erkrankungen, Diabetes und Schlaganfall führen.
+## b. Mögliche Lösungen durch das Projekt
+Dieses Projekt zielt darauf ab, Schlafapnoe mithilfe von Wearable-Daten zu erkennen und die Nutzer über das mögliche Bestehen einer Schlafapnoe zu informieren. Dafür soll ein Modell mithilfe von klinischen Daten entwickelt werden. Durch die frühzeitige Erkennung von Schlafapnoe können Betroffenen eine ärztliche Behandlung aufsuchen und dadurch das Risiko für die oben genannten Erkrankungen reduzieren. Wearables können im Alltag, beim Sport und in Ruhephasen getragen werden. Dadurch entfällt die Notwendigkeit einer Übernachtung in einem Schlaflabor, und die Nutzer können sich in ihrer gewohnten Umgebung befinden, was die Daten nicht verfälscht. Zudem ermöglicht die nächtliche und regelmäßige Überwachung des Schalfs durch Wearables eine genauere Beurteilung der Schlafqualität.
 
-## Problematik
-Die Diagnose von Schlafapnoe erfolgt derzeit hauptsächlich durch aufwendige und kostspielige Polysomnographie-Tests in spezialisierten Schlaflaboren. Für socleh Untersuchung ist es erforderlich, in der Klinik zu übernachten und dabei eine Vielzahl von Sensoren anzubringen, um verschiedene Schlafparameter zu überwachen. Obwohl diese Tests effektiv sind, bringen sie für Patienten eine logistische und finanzielle Belastung mit sich und eignen sich nicht für die regelmäßige und langfristige Überwachung. Darüber hinaus können Unterschiede im Schlafverhalten zwischen der klinischen Umgebung und dem gewohnten Umfeld des Patienten zu verzerrtem Ergebniss führen.
+## 2Projektziele
+### a 
+Entwicklung eines Modells zur Erkennung von Schlafapnoe-Phasen durch die Nutzung von klinischen Messdaten (siehe Kapitel 3a)
+### b
+Gewinnung und Konvertierung von Wearable-Daten in für das Modell nutzbare Daten
+### c 
+Klassifizierung der Schlafapnoe nach dem Apnoe-Hypopnoe-Index (AHI)
 
-## Projektziele
-In Rahmen dieses Projektes sollen die Möglichkeiten von Wearable-Technologie zur Erkennung bzw. Prognose von Schlafapnoe untersucht werden. Fitness-Tracker, Smartwatches und andere Wearables verfügen über verschiedene Sensoren und können die verschiedene physiologische Parameter während des Schlafs messen: Herzfrequenz, Atemfrequenz, Bewegungsmuster und Schnarchgeräusche usw.. 
-Mit diesen Geräten ist es möglich, den Schlaf im gewohnten Umfeld des Patienten zu überwachen.
-
-Das Ziel besteht darin, auf Basis der Daten von Wearables eine Vorhersagemethode für Schlafapnoe zu entwickeln. Die gesammelten Daten werden analysiert und Muster identifiziert, die mit dem Vorhandensein von Schlafapnoe korrelieren. 
-
-Es wird angestrebt, ein Modell zu entwickeln, mit dem man Personen mit einem hohen Risiko für Schlafapnoe anhand der Daten von Wearables identifizieren kann. Diese Vorhersagemethode könnte eine kostengünstigere und zugänglichere Alternative zur herkömmlichen Diagnose von Schlafapnoe darstellen und somit die Früherkennung und Therapie der Erkrankung fördern.
-
+## Erste technische Dokumentation
 
 ## Projektskizze
 Nach der ersten Analyse sind folgende Werte für die Indentifizierung des Schalfaphnoes wichtig:
