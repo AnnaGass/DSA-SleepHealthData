@@ -10,12 +10,12 @@ Aktuell erfolgt die Diagnose hauptsächlich durch aufwändige Polysomnographie-T
 ## b. Mögliche Lösungen durch das Projekt
 Dieses Projekt zielt darauf ab, Schlafapnoe mithilfe von Wearable-Daten zu erkennen und die Nutzer über das mögliche Bestehen einer Schlafapnoe zu informieren. Dafür soll ein Modell mithilfe von klinischen Daten entwickelt werden. Durch die frühzeitige Erkennung von Schlafapnoe können Betroffenen eine ärztliche Behandlung aufsuchen und dadurch das Risiko für die oben genannten Erkrankungen reduzieren. Wearables können im Alltag, beim Sport und in Ruhephasen getragen werden. Dadurch entfällt die Notwendigkeit einer Übernachtung in einem Schlaflabor, und die Nutzer können sich in ihrer gewohnten Umgebung befinden, was die Daten nicht verfälscht. Zudem ermöglicht die nächtliche und regelmäßige Überwachung des Schalfs durch Wearables eine genauere Beurteilung der Schlafqualität.
 
-## 2 Projektziele
-### a 
+## 2. Projektziele
+### a. Projektziel
 Entwicklung eines Modells zur Erkennung von Schlafapnoe-Phasen durch die Nutzung von klinischen Messdaten (siehe Kapitel 3a)
-### b
+### b. Projektziel
 Gewinnung und Konvertierung von Wearable-Daten in für das Modell nutzbare Daten
-### c 
+### c. Projektziel
 Klassifizierung der Schlafapnoe nach dem Apnoe-Hypopnoe-Index (AHI)
 
 ## Erste technische Dokumentation
