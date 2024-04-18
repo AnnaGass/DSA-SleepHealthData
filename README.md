@@ -38,3 +38,6 @@ Klassifizierung der Schlafapnoe nach dem Apnoe-Hypopnoe-Index (AHI)
 ## Technische Dokumentation
 ### Architektur
 ### Mögliche Datenquellen
+Die Daten für unsere Forschung stammen aus dem St. Vincent´s University Hospital / University College Dublin Schlafapnoe-Datenbank. Diese Datenbank enthält 25 vollständige Übernacht-Polysomnogramme von erwachsenen Personen mit Verdacht auf schlafbezogene Atmungsstörungen. Die überarbeitete Version dieser Datenbank wurde am 01.09.2011 veröffentlicht. 
+Die Daten sind unter dieser Quelle zu finden: https://physionet.org/content/ucddb/1.0.0/
+Zusammenfassend könnten potenzielle Datenquellen für unsere Forschung die St. Vincent´s University Hospital / University College Dublin Schlafapnoe-Datenbank selbst, begleitende Dokumentationen und Protokolle, wissenschaftliche Publikationen und Forschungsstudien sein, die auf dieser Datenbank basieren.
