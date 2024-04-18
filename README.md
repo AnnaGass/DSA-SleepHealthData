@@ -1,18 +1,18 @@
 # DSA-SleepHealthData
 
-##Thema: Prävention von Herz-Kreislauferkrankungen mittels Wearables (Fokus
+Thema: Prävention von Herz-Kreislauferkrankungen mittels Wearables (Fokus
 auf Schlafapnoe)
 
-##Team: HeartDataSquad
+Team: HeartDataSquad
 
-##Team-Mitglieder: Alejandro Restrepo Klinge,
+Team-Mitglieder: Alejandro Restrepo Klinge,
 Anna Gaßmann,
 Yusuf Özdemirkan,
 Sofie Haas,
 Tristan Gräble,
 David Silva Goncalves
 
-#Zeitraum von dem Semesterprojekt: 03.04. - 03.07.2024 
+Zeitraum von dem Semesterprojekt: 03.04. - 03.07.2024 
 
 ## 1. Beschreibung der Problematik
 ## a. Hintergrund
