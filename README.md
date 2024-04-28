@@ -44,4 +44,5 @@ Die Daten sind unter dieser Quelle zu finden: https://physionet.org/content/ucdd
 
 Zusammenfassend könnten potenzielle Datenquellen für unsere Forschung die St. Vincent´s University Hospital / University College Dublin Schlafapnoe-Datenbank selbst, begleitende Dokumentationen und Protokolle, wissenschaftliche Publikationen und Forschungsstudien sein, die auf dieser Datenbank basieren.
 
-![alt text]https://github.com/AnnaGass/DSA-SleepHealthData/blob/c90d1071f9640b0ab6695decd131f6dafb6a4f42/Flow1.drawio.png
+![Preparation of Data](https://raw.githubusercontent.com/AnnaGass/DSA-SleepHealthData/c90d1071f9640b0ab6695decd131f6dafb6a4f42/Flow1.drawio.png)
+
