@@ -24,13 +24,21 @@ Aktuell erfolgt die Diagnose hauptsächlich durch aufwändige Polysomnographie-T
 ## b. Mögliche Lösungen durch das Projekt
 Dieses Projekt zielt darauf ab, Schlafapnoe mithilfe von Wearable-Daten zu erkennen und die Nutzer über das mögliche Bestehen einer Schlafapnoe zu informieren. Dafür soll ein Modell mithilfe von klinischen Daten entwickelt werden. Durch die frühzeitige Erkennung von Schlafapnoe können Betroffenen eine ärztliche Behandlung aufsuchen und dadurch das Risiko für die oben genannten Erkrankungen reduzieren. Wearables können im Alltag, beim Sport und in Ruhephasen getragen werden. Dadurch entfällt die Notwendigkeit einer Übernachtung in einem Schlaflabor, und die Nutzer können sich in ihrer gewohnten Umgebung befinden, was die Daten nicht verfälscht. Zudem ermöglicht die nächtliche und regelmäßige Überwachung des Schalfs durch Wearables eine genauere Beurteilung der Schlafqualität.
 
+![Complete Flow](https://github.com/AnnaGass/DSA-SleepHealthData/blob/354c2d079c5b08daed40b96d017ccceba6922886/CompleteFlow.drawio.png)
+
 ## 2. Projektziele
-### a. Projektziel
+### a. Projektziel - Data Analysis + Model Creation
 Entwicklung eines Modells zur Erkennung von Schlafapnoe-Phasen durch die Nutzung von klinischen Messdaten (siehe Kapitel 3a)
-### b. Projektziel
+![Data Analysis + Model Creation](https://github.com/AnnaGass/DSA-SleepHealthData/blob/29c220918386679bae131d19f692ab1f4409dff9/Flow2.drawio.png)
+### b. Projektziel - Preparation of Data
 Gewinnung und Konvertierung von Wearable-Daten in für das Modell nutzbare Daten
-### c. Projektziel
+![Preparation of Data](https://raw.githubusercontent.com/AnnaGass/DSA-SleepHealthData/c90d1071f9640b0ab6695decd131f6dafb6a4f42/Flow1.drawio.png)
+### c. Projektziel - Finetunning (?)
 Klassifizierung der Schlafapnoe nach dem Apnoe-Hypopnoe-Index (AHI)
+![Finetunning](https://github.com/AnnaGass/DSA-SleepHealthData/blob/1bf63f6ebc811b2f262b196b0c8e63128a947046/Flow4.drawio.png)
+### d. Projektziel - Hypothesis Validation
+Validierung der Hypothese und Testen des Modells
+![Hypothesis Validation](https://github.com/AnnaGass/DSA-SleepHealthData/blob/354c2d079c5b08daed40b96d017ccceba6922886/Flow3.drawio.png)
 
 ## Erste technische Dokumentation
 
@@ -44,5 +52,5 @@ Die Daten sind unter dieser Quelle zu finden: https://physionet.org/content/ucdd
 
 Zusammenfassend könnten potenzielle Datenquellen für unsere Forschung die St. Vincent´s University Hospital / University College Dublin Schlafapnoe-Datenbank selbst, begleitende Dokumentationen und Protokolle, wissenschaftliche Publikationen und Forschungsstudien sein, die auf dieser Datenbank basieren.
 
-![Preparation of Data](https://raw.githubusercontent.com/AnnaGass/DSA-SleepHealthData/c90d1071f9640b0ab6695decd131f6dafb6a4f42/Flow1.drawio.png)
+
 
