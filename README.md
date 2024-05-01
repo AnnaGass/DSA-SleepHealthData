@@ -12,7 +12,7 @@ Sofie Haas,
 Tristan Gräble,
 David Silva Goncalves
 
-Zeitraum von dem Semesterprojekt: 03.04. - 03.07.2024 
+Zeitraum von dem Semesterprojekt: 03.04.2024 - 03.07.2024 
 
 ## 1. Beschreibung der Problematik
 ## a. Hintergrund
@@ -23,8 +23,6 @@ Aktuell erfolgt die Diagnose hauptsächlich durch aufwändige Polysomnographie-T
 
 ## b. Mögliche Lösungen durch das Projekt
 Dieses Projekt zielt darauf ab, Schlafapnoe mithilfe von Wearable-Daten zu erkennen und die Nutzer über das mögliche Bestehen einer Schlafapnoe zu informieren. Dafür soll ein Modell mithilfe von klinischen Daten entwickelt werden. Durch die frühzeitige Erkennung von Schlafapnoe können Betroffenen eine ärztliche Behandlung aufsuchen und dadurch das Risiko für die oben genannten Erkrankungen reduzieren. Wearables können im Alltag, beim Sport und in Ruhephasen getragen werden. Dadurch entfällt die Notwendigkeit einer Übernachtung in einem Schlaflabor, und die Nutzer können sich in ihrer gewohnten Umgebung befinden, was die Daten nicht verfälscht. Zudem ermöglicht die nächtliche und regelmäßige Überwachung des Schalfs durch Wearables eine genauere Beurteilung der Schlafqualität.
-
-![Complete Flow](https://github.com/AnnaGass/DSA-SleepHealthData/blob/354c2d079c5b08daed40b96d017ccceba6922886/CompleteFlow.drawio.png)
 
 ## 2. Projektziele
 ### a. Projektziel - Data Analysis + Model Creation
@@ -42,6 +40,11 @@ Gewinnung und Konvertierung von klinische Daten in für das Modell nutzbare Date
 Validierung der Hypothese und Testen des Modells
 
 ![Hypothesis Validation](https://github.com/AnnaGass/DSA-SleepHealthData/blob/354c2d079c5b08daed40b96d017ccceba6922886/Flow3.drawio.png)
+
+
+Aus den einzelnen Flows ergibt sich dieser Gesamtflow: 
+
+![Complete Flow](https://github.com/AnnaGass/DSA-SleepHealthData/blob/354c2d079c5b08daed40b96d017ccceba6922886/CompleteFlow.drawio.png)
 
 ## Erste technische Dokumentation
 
