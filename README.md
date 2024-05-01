@@ -28,21 +28,17 @@ Dieses Projekt zielt darauf ab, Schlafapnoe mithilfe von Wearable-Daten zu erken
 
 ## 2. Projektziele
 ### a. Projektziel - Data Analysis + Model Creation
-Entwicklung eines Modells zur Erkennung von Schlafapnoe-Phasen durch die Nutzung von klinischen Messdaten (siehe Kapitel 3a)
+Analyse der Daten und Entwicklung eines Modells zur Erkennung von Schlafapnoe-Phasen durch die Nutzung von klinischen Messdaten (siehe Kapitel 3a)
+Klassifizierung der Schlafapnoe nach dem Apnoe-Hypopnoe-Index (AHI)
 
 ![Data Analysis + Model Creation](https://github.com/AnnaGass/DSA-SleepHealthData/blob/29c220918386679bae131d19f692ab1f4409dff9/Flow2.drawio.png)
 
 ### b. Projektziel - Preparation of Data
-Gewinnung und Konvertierung von Wearable-Daten in für das Modell nutzbare Daten
+Gewinnung und Konvertierung von klinische Daten in für das Modell nutzbare Daten
 
 ![Preparation of Data](https://raw.githubusercontent.com/AnnaGass/DSA-SleepHealthData/c90d1071f9640b0ab6695decd131f6dafb6a4f42/Flow1.drawio.png)
 
-### c. Projektziel - Finetunning (?)
-Klassifizierung der Schlafapnoe nach dem Apnoe-Hypopnoe-Index (AHI)
-
-![Finetunning](https://github.com/AnnaGass/DSA-SleepHealthData/blob/1bf63f6ebc811b2f262b196b0c8e63128a947046/Flow4.drawio.png)
-
-### d. Projektziel - Hypothesis Validation
+### c. Projektziel - Hypothesis Validation
 Validierung der Hypothese und Testen des Modells
 
 ![Hypothesis Validation](https://github.com/AnnaGass/DSA-SleepHealthData/blob/354c2d079c5b08daed40b96d017ccceba6922886/Flow3.drawio.png)
