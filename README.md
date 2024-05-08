@@ -92,7 +92,7 @@ Die gesamten Daten sind unter der folgenden Quelle zu finden: https://physionet.
 Zu Erstellung des klinischen Modells werden drei Patienten der genannten Forschung ausgewählt. Die Patienten werden anhand des AHI-Index aus der Datei SubjectDetails.xls gewählt.
 Dabei werden der Patient mit dem höchsten AHI-Index, der Patient mit dem niedrigsten AHI-Index und ein Patient mit einem dazwischenliegenden Wert gewählt, um eine möglichst große Verteilung des AHI-Index zu haben.
 
-Die Entscheidung für diese Daten fiel anhand der folgenden Kriterien (sortiert nach Wichtigkeit: 
+Die Entscheidung für diese Daten fiel anhand der folgenden Kriterien (sortiert nach Wichtigkeit): 
 1. Die Daten sind repräsentativ und gültig, da keine leeren Werte vorhanden sind, ebenso treten keine zeitlichen Lücken auf
 2. Die Quelldaten sind weder komprimiert, noch gekürzt
 3. Vielzahl an Patientendaten verfügbar
