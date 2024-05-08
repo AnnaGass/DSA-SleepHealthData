@@ -71,7 +71,7 @@ Zusammenfassend könnten potenzielle Datenquellen für unsere Forschung die St. 
 3. **Wählen Sie Ihr Notebook aus**  
    Suchen Sie das "Notebook.ipynb" im hinzugefügten Repository und wählen Sie es aus.
 
-4. **Wählen Sie das Subjekt aus**
+4. **Wählen Sie das Subjekt aus**  
    Hierzu muss im Notebook im ersten Schritt das Subjekt ausgewählt werden. Hierbei muss es eine Zahl zwischen 001-028 sein.
 
 6. **Führen Sie das Notebook aus**  
