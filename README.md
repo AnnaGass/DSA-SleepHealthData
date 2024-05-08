@@ -25,16 +25,18 @@ Aktuell erfolgt die Diagnose hauptsächlich durch aufwändige Polysomnographie-T
 Dieses Projekt zielt darauf ab, Schlafapnoe mithilfe von Wearable-Daten zu erkennen und die Nutzer über das mögliche Bestehen einer Schlafapnoe zu informieren. Dafür soll ein Modell mithilfe von klinischen Daten entwickelt werden. Durch die frühzeitige Erkennung von Schlafapnoe können Betroffenen eine ärztliche Behandlung aufsuchen und dadurch das Risiko für die oben genannten Erkrankungen reduzieren. Wearables können im Alltag, beim Sport und in Ruhephasen getragen werden. Dadurch entfällt die Notwendigkeit einer Übernachtung in einem Schlaflabor, und die Nutzer können sich in ihrer gewohnten Umgebung befinden, was die Daten nicht verfälscht. Zudem ermöglicht die nächtliche und regelmäßige Überwachung des Schalfs durch Wearables eine genauere Beurteilung der Schlafqualität.
 
 ## 2. Projektziele
-### a. Projektziel - Data Analysis + Model Creation
-Analyse der Daten und Entwicklung eines Modells zur Erkennung von Schlafapnoe-Phasen durch die Nutzung von klinischen Messdaten (siehe Kapitel 3a)
-Klassifizierung der Schlafapnoe nach dem Apnoe-Hypopnoe-Index (AHI)
 
-![Data Analysis + Model Creation](https://github.com/AnnaGass/DSA-SleepHealthData/blob/29c220918386679bae131d19f692ab1f4409dff9/Flow2.drawio.png)
-
-### b. Projektziel - Preparation of Data
+### a. Projektziel - Preparation of Data
 Gewinnung und Konvertierung von klinische Daten in für das Modell nutzbare Daten
 
 ![Preparation of Data](https://raw.githubusercontent.com/AnnaGass/DSA-SleepHealthData/c90d1071f9640b0ab6695decd131f6dafb6a4f42/Flow1.drawio.png)
+
+### b. Projektziel - Data Analysis + Model Creation
+Analyse der Daten und Entwicklung eines Modells zur Erkennung von Schlafapnoe-Phasen durch die Nutzung von klinischen Messdaten (siehe Kapitel 3a)
+Klassifizierung der Schlafapnoe nach dem Apnoe-Hypopnoe-Index (AHI)
+
+![Data Analysis + Model Creation](https://github.com/AnnaGass/DSA-SleepHealthData/blob/34ccfd4f38311f0dfc050df18122f38fbaeb79b6/flows/Flow2.drawio.png)
+
 
 ### c. Projektziel - Hypothesis Validation
 Validierung der Hypothese und Testen des Modells
