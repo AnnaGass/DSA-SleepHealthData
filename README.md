@@ -71,9 +71,12 @@ Zusammenfassend könnten potenzielle Datenquellen für unsere Forschung die St. 
 3. **Wählen Sie Ihr Notebook aus**  
    Suchen Sie das "Notebook.ipynb" im hinzugefügten Repository und wählen Sie es aus.
 
-4. **Führen Sie das Notebook aus**  
-   Starten Sie das Notebook und lassen Sie es laufen. Alle benötigten Installationen sind bereits im Notebook enthalten.
+4. **Wählen Sie das Subjekt aus**
+   Hierzu muss im Notebook im ersten Schritt das Subjekt ausgewählt werden. Hierbei muss es eine Zahl zwischen 001-028 sein.
 
-5. **Überprüfen Sie die Ergebnisse**  
+6. **Führen Sie das Notebook aus**  
+   Starten Sie das Notebook und lassen Sie es laufen. **Alle benötigten Installationen sind bereits im Notebook enthalten. Bei der Ausführung der Schritte werden automatisch alle Schritte gemacht.**
+
+7. **Überprüfen Sie die Ergebnisse**  
    Überprüfen Sie die Ausgabe des Notebooks auf etwaige Fehler oder Warnungen. Stellen Sie sicher, dass das Modell ordnungsgemäß erstellt und validiert wurde.
 
