@@ -62,18 +62,18 @@ Zusammenfassend könnten potenzielle Datenquellen für unsere Forschung die St. 
 
 ## Installationsanleitung
 
-1. **Öffnen Sie Google Colab:**  
+1. **Öffnen Sie Google Colab**  
    Besuchen Sie Google Colab in Ihrem Webbrowser.
 
-2. **Fügen Sie Ihr Repository hinzu:**  
-   Klicken Sie auf "Datei" > "Github" in Google Colab und fügen Sie das Repository hinzu, das Ihr Notebook "Notebook.ipynb" enthält.
+2. **Fügen Sie Ihr Repository hinzu**  
+   Klicken Sie auf "Datei" > "Github" in Google Colab und fügen Sie dieses Repository hinzu.
 
-3. **Wählen Sie Ihr Notebook aus:**  
+3. **Wählen Sie Ihr Notebook aus**  
    Suchen Sie das "Notebook.ipynb" im hinzugefügten Repository und wählen Sie es aus.
 
-4. **Führen Sie das Notebook aus:**  
+4. **Führen Sie das Notebook aus**  
    Starten Sie das Notebook und lassen Sie es laufen. Alle benötigten Installationen sind bereits im Notebook enthalten.
 
-5. **Überprüfen Sie die Ergebnisse:**  
+5. **Überprüfen Sie die Ergebnisse**  
    Überprüfen Sie die Ausgabe des Notebooks auf etwaige Fehler oder Warnungen. Stellen Sie sicher, dass das Modell ordnungsgemäß erstellt und validiert wurde.
 
