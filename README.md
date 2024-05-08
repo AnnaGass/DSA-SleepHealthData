@@ -54,8 +54,25 @@ Aus den einzelnen Flows ergibt sich dieser Gesamtflow:
 
 ## 3. Erste technische Dokumentation
 
+### 3.1 Datenquellen
+Die zur Modellerstellung verwendeten Forschungsdaten stammen aus dem St. Vincent´s University Hospital / University College Dublin Schlafapnoe-Datenbank. Diese Datenbank enthält 25 vollständige Übernacht-Polysomnogramme von erwachsenen Personen mit Verdacht auf obstruktive Schlafapnoe, zentrale Schlafapnoe oder primärem Schnarchen. Die überarbeitete Version dieser Datenbank wurde am 01.09.2011 veröffentlicht. Allgemeine Informationen zu den Patienten (BMI, Alter, AHI-Index, Körpergröße,...) sind in der Datei SubjectDetails.xls dargestellt.
 
-### 3.1 Installationsanleitung
+Die gesamten Daten sind unter der folgenden Quelle zu finden: https://physionet.org/content/ucddb/1.0.0/ (Stand 08.05.2024)
+
+Zu Erstellung des klinischen Modells werden drei Patienten der genannten Forschung ausgewählt. Die Patienten werden anhand des AHI-Index aus der Datei SubjectDetails.xls gewählt.
+Dabei werden der Patient mit dem höchsten AHI-Index, der Patient mit dem niedrigsten AHI-Index und ein Patient mit einem dazwischenliegenden Wert gewählt, um eine möglichst große Verteilung des AHI-Index zu haben.
+
+Die Entscheidung für diese Daten fiel anhand der folgenden Kriterien (sortiert nach Wichtigkeit): 
+1. Die Daten sind repräsentativ und gültig, da keine leeren Werte vorhanden sind, ebenso treten keine zeitlichen Lücken auf
+2. Die Quelldaten sind weder komprimiert, noch gekürzt
+3. Vielzahl an Patientendaten verfügbar
+4. Zusätzliche Annotationen vorhanden, sodass das Gesamtbild nachvollzogen werden kann
+5. Quelle ist eine Kooperation der St. Vincent´s University Hospital / University College Dublin. Dies macht die Daten zu glaubwürdigen Daten
+6. Die überarbeitete Version der Datenbank wurde am 01.09.2011 veröffentlicht und das Repository regelmäßig gepflegt ?!
+7. Es gibt eine "Open Data Commons Attribution License V1.0"
+8. GIBT ES ZITIERFÄHIGE PUBLIKATIONEN ZU DEN DATENQUELLEN ?!?!?
+
+### 3.2 Installationsanleitung
 
 1. **Öffnen Sie Google Colab**  
    Besuchen Sie Google Colab in Ihrem Webbrowser.
@@ -80,25 +97,6 @@ Aus den einzelnen Flows ergibt sich dieser Gesamtflow:
 7. **Überprüfen Sie die Ergebnisse**  
    Überprüfen Sie die Ausgabe des Notebooks auf etwaige Fehler oder Warnungen. Stellen Sie sicher, dass das Modell ordnungsgemäß erstellt und validiert wurde.
 
+### 3.3 Architektur
 
-## 4. Technische Dokumentation
-
-### 4.1 Architektur
-### 4.2 Mögliche Datenquellen
-Die zur Modellerstellung verwendeten Forschungsdaten stammen aus dem St. Vincent´s University Hospital / University College Dublin Schlafapnoe-Datenbank. Diese Datenbank enthält 25 vollständige Übernacht-Polysomnogramme von erwachsenen Personen mit Verdacht auf obstruktive Schlafapnoe, zentrale Schlafapnoe oder primärem Schnarchen. Die überarbeitete Version dieser Datenbank wurde am 01.09.2011 veröffentlicht. Allgemeine Informationen zu den Patienten (BMI, Alter, AHI-Index, Körpergröße,...) sind in der Datei SubjectDetails.xls dargestellt.
-
-Die gesamten Daten sind unter der folgenden Quelle zu finden: https://physionet.org/content/ucddb/1.0.0/ (Stand 08.05.2024)
-
-Zu Erstellung des klinischen Modells werden drei Patienten der genannten Forschung ausgewählt. Die Patienten werden anhand des AHI-Index aus der Datei SubjectDetails.xls gewählt.
-Dabei werden der Patient mit dem höchsten AHI-Index, der Patient mit dem niedrigsten AHI-Index und ein Patient mit einem dazwischenliegenden Wert gewählt, um eine möglichst große Verteilung des AHI-Index zu haben.
-
-Die Entscheidung für diese Daten fiel anhand der folgenden Kriterien (sortiert nach Wichtigkeit): 
-1. Die Daten sind repräsentativ und gültig, da keine leeren Werte vorhanden sind, ebenso treten keine zeitlichen Lücken auf
-2. Die Quelldaten sind weder komprimiert, noch gekürzt
-3. Vielzahl an Patientendaten verfügbar
-4. Zusätzliche Annotationen vorhanden, sodass das Gesamtbild nachvollzogen werden kann
-5. Quelle ist eine Kooperation der St. Vincent´s University Hospital / University College Dublin. Dies macht die Daten zu glaubwürdigen Daten
-6. Die überarbeitete Version der Datenbank wurde am 01.09.2011 veröffentlicht und das Repository regelmäßig gepflegt ?!
-7. Es gibt eine "Open Data Commons Attribution License V1.0"
-8. GIBT ES ZITIERFÄHIGE PUBLIKATIONEN ZU DEN DATENQUELLEN ?!?!?
 
