@@ -98,5 +98,26 @@ Die Entscheidung für diese Daten fiel anhand der folgenden Kriterien (sortiert 
    Überprüfen Sie die Ausgabe des Notebooks auf etwaige Fehler oder Warnungen. Stellen Sie sicher, dass das Modell ordnungsgemäß erstellt und validiert wurde.
 
 ### 3.3 Architektur
+Die Architektur besteht aus mehreren Hauptkomponenten: Datenakquise, Datenverarbeitung, Datenanalyse und Visualisierung.
 
+#### Datenakquise
+Die Daten werden von der PhysioNet-Plattform bezogen, wo sie als .rec und .txt Dateien für verschiedene Patienten zur Verfügung stehen. Die Dateien enthalten klinische Messdaten und Annotationen zur Schlafphase und zu Atmungsereignissen. Diese Daten werden mittels Skriptbefehlen heruntergeladen und lokal gespeichert, um eine schnelle und wiederholbare Verarbeitung zu ermöglichen.
 
+#### Datenverarbeitung
+Nach dem Herunterladen der Daten folgt die Verarbeitung:
+
+Signalverarbeitung: Die Rohsignale (z.B. SpO2, Puls) werden aus den .rec Dateien extrahiert und in CSV-Dateien formatiert.
+Annotationsextraktion: Schlafstadien und Atmungsereignisse werden aus den entsprechenden .txt Dateien gelesen und ebenfalls in CSV umgewandelt.
+Diese Prozesse nutzen Python-Bibliotheken wie pyedflib für das Lesen von EDF-Dateien und pandas für die Datenmanipulation.
+
+#### Modellentwicklung und Datenanalyse
+Die verarbeiteten Daten werden anschließend analysiert, um Muster zu erkennen und Vorhersagemodelle zu erstellen. Dabei kann auch auf maschinelles Lernen zurückgegriffen werden.
+Beispiele dazu wären:
+Feature Engineering: Es werden relevante Merkmale aus den Signalen abgeleitet, die für die Vorhersage von Schlafapnoe nützlich sind.
+Modelltraining: Verschiedene Modelle werden trainiert und evaluiert, um das effektivste zu identifizieren.
+
+#### Visualisierung
+Zur Überprüfung der Datenqualität und zur Darstellung der Analyseergebnisse werden Visualisierungen verwendet. 'matplotlib' und 'plotly' bieten Funktionen, um die Zeitreihen der biologischen Signale sowie die Ergebnisse der Modellvorhersagen graphisch darzustellen.
+
+#### Technologien
+Python: Als Hauptprogrammiersprache für das Projekt.
