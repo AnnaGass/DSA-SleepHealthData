@@ -105,18 +105,21 @@ Die Daten werden von der PhysioNet-Plattform bezogen, wo sie als .rec und .txt D
 #### Datenverarbeitung
 Nach dem Herunterladen der Daten folgt die Verarbeitung:
 
-Signalverarbeitung: Die Rohsignale (z.B. SpO2, Puls) werden aus den .rec Dateien extrahiert und in CSV-Dateien formatiert.
-Annotationsextraktion: Schlafstadien und Atmungsereignisse werden aus den entsprechenden .txt Dateien gelesen und ebenfalls in CSV umgewandelt.
+* Signalverarbeitung: Die Rohsignale (z.B. SpO2, Puls) werden aus den .rec Dateien extrahiert und in CSV-Dateien formatiert.
+* Annotationsextraktion: Schlafstadien und Atmungsereignisse werden aus den entsprechenden .txt Dateien gelesen und ebenfalls in CSV umgewandelt.
+
 Diese Prozesse nutzen Python-Bibliotheken wie pyedflib für das Lesen von EDF-Dateien und pandas für die Datenmanipulation.
 
 #### Modellentwicklung und Datenanalyse
 Die verarbeiteten Daten werden anschließend analysiert, um Muster zu erkennen und Vorhersagemodelle zu erstellen. Dabei kann auch auf maschinelles Lernen zurückgegriffen werden.
+
 Beispiele dazu wären:
-Feature Engineering: Es werden relevante Merkmale aus den Signalen abgeleitet, die für die Vorhersage von Schlafapnoe nützlich sind.
-Modelltraining: Verschiedene Modelle werden trainiert und evaluiert, um das effektivste zu identifizieren.
+* Feature Engineering: Es werden relevante Merkmale aus den Signalen abgeleitet, die für die Vorhersage von Schlafapnoe nützlich sind.
+* Modelltraining: Verschiedene Modelle werden trainiert und evaluiert, um das effektivste zu identifizieren.
 
 #### Visualisierung
 Zur Überprüfung der Datenqualität und zur Darstellung der Analyseergebnisse werden Visualisierungen verwendet. 'matplotlib' und 'plotly' bieten Funktionen, um die Zeitreihen der biologischen Signale sowie die Ergebnisse der Modellvorhersagen graphisch darzustellen.
 
 #### Technologien
-Python: Als Hauptprogrammiersprache für das Projekt.
+* Python: Als Hauptprogrammiersprache für das Projekt
+* Jupyter Notebook: Um die Übersicht des Projekts zu erleichtern
