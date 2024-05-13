@@ -68,9 +68,8 @@ Die Entscheidung für diese Daten fiel anhand der folgenden Kriterien (sortiert 
 3. Vielzahl an Patientendaten verfügbar
 4. Zusätzliche Annotationen vorhanden, sodass das Gesamtbild nachvollzogen werden kann
 5. Quelle ist eine Kooperation der St. Vincent´s University Hospital / University College Dublin. Dies macht die Daten zu glaubwürdigen Daten
-6. Die überarbeitete Version der Datenbank wurde am 01.09.2011 veröffentlicht und das Repository regelmäßig gepflegt ?!
-7. Es gibt eine "Open Data Commons Attribution License V1.0"
-8. GIBT ES ZITIERFÄHIGE PUBLIKATIONEN ZU DEN DATENQUELLEN ?!?!?
+6. Es gibt eine "Open Data Commons Attribution License V1.0"
+7. Es gibt zitierfähige Publikationen (z.B. https://ieeexplore.ieee.org/document/9864566)
 
 ### 3.2 Installationsanleitung
 
