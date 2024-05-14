@@ -48,14 +48,14 @@ Validierung der Hypothese und Testen des Modells
 ![Hypothesis Validation](https://github.com/AnnaGass/DSA-SleepHealthData/blob/354c2d079c5b08daed40b96d017ccceba6922886/Flow3.drawio.png)
 
 
-Aus den einzelnen Flows ergibt sich dieser Gesamtflow, entsprechend der Architektur des Projektes (s. Kapitel 3.3): 
+Aus den einzelnen Flows ergibt sich dieser Gesamtflow, entsprechend der Architektur des Projektes (siehe Kapitel 3.3): 
 
 ![Complete Flow](https://github.com/AnnaGass/DSA-SleepHealthData/blob/354c2d079c5b08daed40b96d017ccceba6922886/CompleteFlow.drawio.png)
 
 ## 3. Erste technische Dokumentation
 
 ### 3.1 Datenquellen
-Die zur Modellerstellung verwendeten Forschungsdaten stammen aus dem St. Vincent´s University Hospital / University College Dublin Schlafapnoe-Datenbank. Diese Datenbank enthält 25 vollständige Übernacht-Polysomnogramme von erwachsenen Personen mit Verdacht auf obstruktive Schlafapnoe, zentrale Schlafapnoe oder primärem Schnarchen. Die überarbeitete Version dieser Datenbank wurde am 01.09.2011 veröffentlicht. Allgemeine Informationen zu den Patienten (BMI, Alter, AHI-Index, Körpergröße,...) sind in der Datei SubjectDetails.xls dargestellt.
+Die zur Modellerstellung verwendeten Forschungsdaten stammen aus der St. Vincent´s University Hospital / University College Dublin Schlafapnoe-Datenbank. Diese Datenbank enthält 25 vollständige Übernacht-Polysomnogramme von erwachsenen Personen mit Verdacht auf obstruktive Schlafapnoe, zentrale Schlafapnoe oder primärem Schnarchen. Die überarbeitete Version dieser Datenbank wurde am 01.09.2011 veröffentlicht. Allgemeine Informationen zu den Patienten (BMI, Alter, AHI-Index, Körpergröße,...) sind in der Datei SubjectDetails.xls dargestellt.
 
 Die gesamten Daten sind unter der folgenden Quelle zu finden: https://physionet.org/content/ucddb/1.0.0/ (Stand 08.05.2024)
 
@@ -67,13 +67,13 @@ Zu Erstellung des klinischen Modells werden drei Patienten der genannten Forschu
 Dabei werden der Patient mit dem höchsten AHI-Index, der Patient mit dem niedrigsten AHI-Index und ein Patient mit einem dazwischenliegenden Wert gewählt, um eine möglichst große Verteilung des AHI-Index zu haben.
 
 Die Entscheidung für diese Daten fiel anhand der folgenden Kriterien (sortiert nach Wichtigkeit): 
-1. Die Daten sind repräsentativ und gültig, da keine leeren Werte vorhanden sind, ebenso treten keine zeitlichen Lücken auf
-2. Die Quelldaten sind weder komprimiert, noch gekürzt
-3. Vielzahl an Patientendaten verfügbar
-4. Zusätzliche Annotationen vorhanden, sodass das Gesamtbild nachvollzogen werden kann
-5. Quelle ist eine Kooperation der St. Vincent´s University Hospital / University College Dublin. Dies macht die Daten zu glaubwürdigen Daten
-6. Es gibt eine "Open Data Commons Attribution License V1.0"
-7. Es gibt zitierfähige Publikationen (z.B. https://ieeexplore.ieee.org/document/9864566)
+1. Die Daten sind repräsentativ und gültig, da keine leeren Werte vorhanden sind, ebenso treten keine zeitlichen Lücken auf.
+2. Die Quelldaten sind weder komprimiert, noch gekürzt.
+3. Es ist eine Vielzahl an Patientendaten verfügbar.
+4. Es sind zusätzliche Annotationen vorhanden, sodass das Gesamtbild nachvollzogen werden kann.
+5. Die Quelle ist eine Kooperation der St. Vincent´s University Hospital / University College Dublin. Dies macht die Daten zu glaubwürdigen Daten.
+6. Es gibt eine "Open Data Commons Attribution License V1.0".
+7. Es gibt zitierfähige Publikationen (z.B. https://ieeexplore.ieee.org/document/9864566).
 
 ### 3.2 Installationsanleitung
 
