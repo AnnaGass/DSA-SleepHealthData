@@ -17,7 +17,7 @@ David Silva Goncalves
 ## 1.1. Hintergrund
 Schlafapnoe ist eine weit verbreitete, aber oft unbemerkte schlafbezogene Atemstörung, die durch wiederholte Atemaussetzer während des Schlafs gekennzeichnet ist.
 Diese Unterbrechungen führen zu einer verminderten Sauerstoffversorgung des Körpers und stören das natürliche Schlafmuster.
-Der Schweregrad der nächtlichen Atemaussetzer wird anhand des AHI (Apnoe-Hypopnoe-Index) klasifiziert: 
+Der Schweregrad der nächtlichen Atemaussetzer (≥ 10 Sekungen) wird anhand des AHI (Apnoe-Hypopnoe-Index) klasifiziert: 
 * Leicht 5–15 Atemaussetzer/Minute
 * Mittel 15–30 Atemaussetzer/Minute
 * Schwer > 30 Atemaussetzer/Minute
