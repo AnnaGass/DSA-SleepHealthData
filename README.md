@@ -48,7 +48,7 @@ Validierung der Hypothese und Testen des Modells
 ![Hypothesis Validation](https://github.com/AnnaGass/DSA-SleepHealthData/blob/354c2d079c5b08daed40b96d017ccceba6922886/Flow3.drawio.png)
 
 
-Aus den einzelnen Flows ergibt sich dieser Gesamtflow: 
+Aus den einzelnen Flows ergibt sich dieser Gesamtflow, entsprechend der Architektur des Projektes (s. Kapitel 3.3): 
 
 ![Complete Flow](https://github.com/AnnaGass/DSA-SleepHealthData/blob/354c2d079c5b08daed40b96d017ccceba6922886/CompleteFlow.drawio.png)
 
@@ -58,6 +58,10 @@ Aus den einzelnen Flows ergibt sich dieser Gesamtflow:
 Die zur Modellerstellung verwendeten Forschungsdaten stammen aus dem St. Vincent´s University Hospital / University College Dublin Schlafapnoe-Datenbank. Diese Datenbank enthält 25 vollständige Übernacht-Polysomnogramme von erwachsenen Personen mit Verdacht auf obstruktive Schlafapnoe, zentrale Schlafapnoe oder primärem Schnarchen. Die überarbeitete Version dieser Datenbank wurde am 01.09.2011 veröffentlicht. Allgemeine Informationen zu den Patienten (BMI, Alter, AHI-Index, Körpergröße,...) sind in der Datei SubjectDetails.xls dargestellt.
 
 Die gesamten Daten sind unter der folgenden Quelle zu finden: https://physionet.org/content/ucddb/1.0.0/ (Stand 08.05.2024)
+
+Folgende Abbildung fasst die wichtigsten Daten der Datenbank zusammen:
+
+![Database](https://github.com/AnnaGass/DSA-SleepHealthData/blob/79dcf71dce61faea7d92affa54ff811221a08e3b/Database.drawio.png)
 
 Zu Erstellung des klinischen Modells werden drei Patienten der genannten Forschung ausgewählt. Die Patienten werden anhand des AHI-Index aus der Datei SubjectDetails.xls gewählt.
 Dabei werden der Patient mit dem höchsten AHI-Index, der Patient mit dem niedrigsten AHI-Index und ein Patient mit einem dazwischenliegenden Wert gewählt, um eine möglichst große Verteilung des AHI-Index zu haben.
@@ -80,21 +84,24 @@ Die Entscheidung für diese Daten fiel anhand der folgenden Kriterien (sortiert 
    Klicken Sie auf "Datei" > "Github" in Google Colab und fügen Sie dieses Repository hinzu. 
    https://github.com/AnnaGass/DSA-SleepHealthData.git
 
-3. **Wählen Sie Ihr Notebook aus**  
-   Suchen Sie das "Notebook.ipynb" im hinzugefügten Repository und wählen Sie es aus.
+1. **Notebook auswählen**  
+   Die Datei "Notebook.ipynb" aus diesem Repository auswählen.
 
-4. **Wählen Sie das Subjekt aus**  
-   Wählen Sie im ersten Schritt das Subjekt (entspricht der Patientenid) im Notebook aus. Möglich ist hierbei eine ID zwischen 002-028.
+2. **Den Code in Google Colab öffnen**
+   Den Button "Open in Colab" betätigen.
+
+3. **Subjekt (Patienten-ID) auswählen**  
+   Das Subjekt (entspricht der Patienten-ID) im Notebook auswählen. Möglich ist hierbei eine ID zwischen 002-028.
    Zur Erstellung des Modells wurden die folgenden drei IDs verwendet:
    * 018 (niedrigster AHI-Index)
    * 027 (höchster AHI-Index)
    * 006 (mittlerer AHI-Index)
 
-6. **Führen Sie das Notebook aus**  
-   Starten Sie das Notebook und lassen Sie es laufen. **Die Installtion aller benötigten Libraries ist bereits im Quellcode definiert. Diese werden automatisch beim Starten des Programms bei Bedarf installiert.**
+4. **Notebook ausführen**  
+   Das Notebook starten und laufen lassen. **Die Installtion aller benötigten Libraries ist bereits im Quellcode definiert. Diese werden automatisch beim Starten des Programms bei Bedarf installiert.**
 
-7. **Überprüfen Sie die Ergebnisse**  
-   Überprüfen Sie die Ausgabe des Notebooks auf etwaige Fehler oder Warnungen. Stellen Sie sicher, dass das Modell ordnungsgemäß erstellt und validiert wurde.
+5. **Ergebnisse überprüfen**  
+   Die Ausgabe des Notebooks auf etwaige Fehler oder Warnungen überprüfen. Sicherstellen, dass das Modell ordnungsgemäß erstellt und validiert wurde.
 
 ### 3.3 Architektur
 Die Architektur besteht aus mehreren Hauptkomponenten: Datenakquise, Datenverarbeitung, Datenanalyse und Visualisierung.
