@@ -1,17 +1,17 @@
 # DSA-SleepHealthData
 
-Thema: Schlafapnoe-Erkennung mittels Wearable-Daten: Ein Modell basierend auf klinischen Daten
+**Thema**: Schlafapnoe-Erkennung mittels Wearable-Daten: Ein Modell basierend auf klinischen Daten
 
-Team: HeartDataSquad
+**Team**: HeartDataSquad
 
-Team-Mitglieder: Alejandro Restrepo Klinge,
+**Team-Mitglieder**: Alejandro Restrepo Klinge,
 Anna Gaßmann,
 Yusuf Özdemirkan,
 Sofie Haas,
 Tristan Gräble,
 David Silva Goncalves
 
-Zeitraum von dem Semesterprojekt: 03.04.2024 - 03.07.2024 
+**Zeitraum des Semesterprojekts**: 03.04.2024 - 03.07.2024 
 
 ## 1. Beschreibung der Problematik
 ## 1.1. Hintergrund
