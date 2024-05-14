@@ -77,13 +77,6 @@ Die Entscheidung für diese Daten fiel anhand der folgenden Kriterien (sortiert 
 
 ### 3.2 Installationsanleitung
 
-1. **Öffnen Sie Google Colab**  
-   Besuchen Sie Google Colab in Ihrem Webbrowser.
-
-2. **Fügen Sie Ihr Repository hinzu**  
-   Klicken Sie auf "Datei" > "Github" in Google Colab und fügen Sie dieses Repository hinzu. 
-   https://github.com/AnnaGass/DSA-SleepHealthData.git
-
 1. **Notebook auswählen**  
    Die Datei "Notebook.ipynb" aus diesem Repository auswählen.
 
@@ -102,6 +95,7 @@ Die Entscheidung für diese Daten fiel anhand der folgenden Kriterien (sortiert 
 
 5. **Ergebnisse überprüfen**  
    Die Ausgabe des Notebooks auf etwaige Fehler oder Warnungen überprüfen. Sicherstellen, dass das Modell ordnungsgemäß erstellt und validiert wurde.
+   
 
 ### 3.3 Architektur
 Die Architektur besteht aus mehreren Hauptkomponenten: Datenakquise, Datenverarbeitung, Datenanalyse und Visualisierung.
