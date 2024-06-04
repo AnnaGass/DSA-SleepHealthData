@@ -30,8 +30,23 @@ Dieses Projekt zielt darauf ab, Schlafapnoe mithilfe von Wearable-Daten zu erken
 
 ## 2. Projektziele
 
+Um die Ziele in messbare, zeitgebundene und klare Vorgaben zu definieren werden sie mithilfe der SMART-Zielformulierung formuliert. Damit kann zudem der Forschritt und der Erfolg des Projekts überwacht werden.
+
 ### 2.1. Projektziel - Preparation of Data
 Gewinnung und Konvertierung von klinischen Daten in für das Modell nutzbare Daten.
+
+**SMART-Zielformulierung:**
+Die Datenaufbereitung ist abgeschlossen, wenn innerhalb von xxx Monaten 100% der klinischen Daten bereinigt, normalisiert und konvertiert wurden und in einem für das Modell verwendbaren Format vorliegen.
+
+**Specific:** Die klinischen Daten müssen so vor- und aufbereitet werden, dass sie mit dem Machine-Learning-Modell genutzt werden können. Das beinhaltet das Bereinigen, Normalisieren und Konvertieren der Daten.
+
+**Mesurable:** Die Datenvorbereitung ist abgeschlossen, wenn 100% der benötigten Daten in einem für das Modell verwendbaren Format vorliegen und die Datensätze bereinigt wurden.
+
+**Achievable:** Mit den vorhandenen Ressourcen und dem Zugang zu den erforderlichen klinischen Daten sollte die Datenaufbereitung innerhalb des festgelegten Projekt-Zeitrahmens durchgeführt werden.
+
+**Relevant:** Eine präzise und vollständige Datenaufbereitung ist entscheidend für die Genauigkeit des Modells und damit den Erfolg des gesamten Projekts.
+
+**Time-bounded:** Die Datenaufbereitung muss innerhalb von xxx abgeschlossen werden.
 
 ![Preparation of Data](https://raw.githubusercontent.com/AnnaGass/DSA-SleepHealthData/c90d1071f9640b0ab6695decd131f6dafb6a4f42/Flow1.drawio.png)
 
@@ -39,11 +54,37 @@ Gewinnung und Konvertierung von klinischen Daten in für das Modell nutzbare Dat
 Analyse der Daten und Entwicklung eines Modells zur Erkennung von Schlafapnoe-Phasen durch die Nutzung von klinischen Messdaten (siehe Kapitel 3a)
 Klassifizierung der Schlafapnoe nach dem Apnoe-Hypopnoe-Index (AHI)
 
+**SMART-Zielformulierung:**
+Ein Machine-Learning-Modell zur Erkennung von Schlafapnoe-Phasen wird innerhalb von ccc Monaten nach Abschluss der Datenaufbereitung entwickelt und getestet, mit einer Genauigkeit von mindestens 85%, einer Sensitivität von mindestens 80% und eine Spezifität von mindestens 80%.
+
+**Specific:** Es soll ein Modell entwickelt werden, das Schlafapnoe-Pahasen anhand von klinischen Messdaten erkennt und die Schlafapnoe nach dem Apnoe-Hypopnoe-Index (AHI) klassifiziert.
+
+**Mesurable:** Das Modell gilt als präzise genug, wenn es eine Genauigkeit von mindestens 85%, eine Sensitivität von mindestens 80% und eine Spezifität von mindestens 80% aufweist.
+
+**Achievable:** Mit den vorhandenen Daten und den zur Verfügung stehenden Modellierungswerkzeugen ist das Ziel erreichbar. 
+
+**Relevant:** Die Modellgenauigkeit ist entscheidend für die zuverlässige Erkennung von Schlafapnoe und damit die Akzeptanz und den Erfolg des Projekts. 
+
+**Time-bounded:** Das Modell muss innerhalb von xxx nach Abschluss der Datenaufbereitung entwickelt und getestet werden. 
+
 ![Data Analysis + Model Creation](https://github.com/AnnaGass/DSA-SleepHealthData/blob/34ccfd4f38311f0dfc050df18122f38fbaeb79b6/flows/Flow2.drawio.png)
 
 
 ### 2.3. Projektziel - Hypothesis Validation
 Validierung der Hypothese und Testen des Modells
+
+**SMART-Zielformulierung:**
+Die Hypothese, dass Schlafapnoe mithilfe von Wearable-Daten erkannt werden kann, wird innerhalb von 2 Monaten nach der Modellentwicklung validiert, indem das Modell an einem unabhängigen Datensatz getestet und die festgelegten Genauigkeitskriterien erfüllt werden.
+
+**Specific:** Die Hypothese, dass Schlafapnoe mithilfe von Wearable-Daten erkannt werden kann, soll validiert werden.
+
+**Mesurable:** Die Validierung ist abgeschlossen, wenn das Modell an einem unabhängigen Datensatz getestet und die festgelegten Genauigkeitskriterien erfüllt hat.
+
+**Achievable:** Durch den Einsatz der entwickelten Modelle und der verfügbaren klinischen Daten sollte die Hypothesenvalidierung machbar sein. 
+
+**Relevant:** Die Validierung der Hypothese ist entscheidend, um die klinische Nützlichkeit und den praktischen Einsatz des Modells zu bestätigen.
+
+**Time-bounded:** Die Hypothesenvalidierung muss innerhalb von xxx Monaten nach der Modellentwicklung abgeschlossen sein. 
 
 ![Hypothesis Validation](https://github.com/AnnaGass/DSA-SleepHealthData/blob/354c2d079c5b08daed40b96d017ccceba6922886/Flow3.drawio.png)
 
