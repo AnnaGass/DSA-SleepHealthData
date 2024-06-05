@@ -169,3 +169,41 @@ Zur Überprüfung der Datenqualität und zur Darstellung der Analyseergebnisse w
 #### Technologien
 * **Python**: Als Hauptprogrammiersprache für das Projekt
 * **Jupyter Notebook**: Um die Übersicht des Projekts zu erleichtern
+
+## Methoden
+
+In diesem Kapitel werden die Methoden beschrieben, die zur Untersuchung der Fragestellung verwendet werden: 
+Inwieweit beeinflusst der Sauerstoffgehalt (SpO2) und der Puls das Auftreetn von Apnoe? 
+Die dafr verwendeten Methoden sind ein Entscheidungsbaum und eine Korrelationsmatrix. 
+
+### Methode 1: Entscheidungsbaum 
+
+Als erste Methdode wurde ein Entscheidungsbaum verwendet, um die Beziehung zwischen dem Sauerstoffgehalt (SpO2), dem Puls und dem Auftreten von Apnoe zu modellieren. 
+
+Nachdem der Datensatz aus einer CSV-Dateien geladen wurde, wurden die Variablen _SpO2_ und _Pulse Range_ in numerische Werte konvertiert.
+Danach wurden die Merkmale _SpO2_Category_Transformed, Pulse_Range_Transformed, Sleep Stage_ sowie die Zielvariable _Apnea_ aufgeteilt.
+Die Daten wurden in Trainings- (80%) und Testdaten (20%) aufgeteilt, um das Modell zu trainieren und zu evaluieren. 
+Das Modell wurde mit der Methode _DecisionTreeClassifier_ initalisiert und auf die Trainingsdaten angepasst.
+Das Modell wurde mithilfe der Testdaten evaluiert. Die Genauigkeit (Accuracy) und der Klassificationsbereich (Precision, Recall, F1-Score) wurden berechnet und gespeichert. 
+Schlussendlich wurde der Entscheidungsbaum visualisiert, um die Entscheidungsregeln und die Struktur des Baumes zu verstehen. 
+
+### Korrelationsmatrix
+
+Als zweite Methode wurde eine Korrelationsmatrix erstellt, um die liniearen Beziehungen zwischen den Variablen _SpO2, Puls_ und _Apnoe_ zu analysieren. 
+
+Zuerst wurde aus einer CSV-Datei der Datensatz geladen und nicht relevanten Spalten wurden entfernt. Ergänzend wurden kategorische Merkmale in numerische Werte konvertiert. 
+Die Korrelationen zwischen den verbliebenden numerischen Variablen wurden berechnet und al Korrelationsmatrix gepseichert. 
+Zur visuellen Darstellung wurde eine Heatmap der Korrelationsmatrix erstellt, die die Stärke und Richtung der Korrelationen visuell darstellen. 
+
+
+
+
+
+
+
+
+
+
+
+
+
