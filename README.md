@@ -170,13 +170,13 @@ Zur Überprüfung der Datenqualität und zur Darstellung der Analyseergebnisse w
 * **Python**: Als Hauptprogrammiersprache für das Projekt
 * **Jupyter Notebook**: Um die Übersicht des Projekts zu erleichtern
 
-## Methoden
+## 4. Methoden
 
 In diesem Kapitel werden die Methoden beschrieben, die zur Untersuchung der Fragestellung verwendet werden: 
 Inwieweit beeinflusst der Sauerstoffgehalt (SpO2) und der Puls das Auftreetn von Apnoe? 
 Die dafr verwendeten Methoden sind ein Entscheidungsbaum und eine Korrelationsmatrix. 
 
-### Methode 1: Entscheidungsbaum 
+### 4.1 Methode 1: Entscheidungsbaum 
 
 Als erste Methdode wurde ein Entscheidungsbaum verwendet, um die Beziehung zwischen dem Sauerstoffgehalt (SpO2), dem Puls und dem Auftreten von Apnoe zu modellieren. 
 
@@ -187,7 +187,7 @@ Das Modell wurde mit der Methode _DecisionTreeClassifier_ initalisiert und auf d
 Das Modell wurde mithilfe der Testdaten evaluiert. Die Genauigkeit (Accuracy) und der Klassificationsbereich (Precision, Recall, F1-Score) wurden berechnet und gespeichert. 
 Schlussendlich wurde der Entscheidungsbaum visualisiert, um die Entscheidungsregeln und die Struktur des Baumes zu verstehen. 
 
-### Korrelationsmatrix
+### 4.2 Methode 2: Korrelationsmatrix
 
 Als zweite Methode wurde eine Korrelationsmatrix erstellt, um die liniearen Beziehungen zwischen den Variablen _SpO2, Puls_ und _Apnoe_ zu analysieren. 
 
