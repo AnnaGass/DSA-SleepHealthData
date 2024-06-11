@@ -120,7 +120,7 @@ Die Entscheidung für diese Daten fiel anhand der folgenden Kriterien (sortiert 
 
 1. **Notebook auswählen**  
 
-   Die Datei "Notebook.ipynb" aus diesem Repository auswählen.
+   Die gewünschte Notebook-Datei (.ipynb) aus dem Repository auswählen.
 
 2. **Den Code in Google Colab öffnen**
 
@@ -173,29 +173,29 @@ Zur Überprüfung der Datenqualität und zur Darstellung der Analyseergebnisse w
 ## 4. Methoden
 
 In diesem Kapitel werden die Methoden beschrieben, die zur Untersuchung der Fragestellung verwendet werden: 
-Inwieweit beeinflusst der Sauerstoffgehalt (SpO2) und der Puls das Auftreetn von Apnoe? 
-Die dafr verwendeten Methoden sind ein Entscheidungsbaum und eine Korrelationsmatrix. 
+Inwieweit beeinflusst der Sauerstoffgehalt (SpO2) und der Puls das Auftreten von Apnoe? 
+Die hierfür verwendeten Methoden sind ein Entscheidungsbaum, eine multivariate Regression und eine Korrelationsmatrix.
 
 ### 4.1 Methode 1: Entscheidungsbaum 
 
-Als erste Methdode wurde ein Entscheidungsbaum verwendet, um die Beziehung zwischen dem Sauerstoffgehalt (SpO2), dem Puls und dem Auftreten von Apnoe zu modellieren. 
+Als erste Methode wurde ein Entscheidungsbaum verwendet, um die Beziehung zwischen dem Sauerstoffgehalt (SpO2), dem Puls und dem Auftreten von Apnoe zu modellieren.
 
-Nachdem der Datensatz aus einer CSV-Dateien geladen wurde, wurden die Variablen _SpO2_ und _Pulse Range_ in numerische Werte konvertiert.
+Nachdem der Datensatz aus einer CSV-Dateie geladen wurde, wurden die Variablen _SpO2_ und _Pulse Range_ in numerische Werte konvertiert.
 Danach wurden die Merkmale _SpO2_Category_Transformed, Pulse_Range_Transformed, Sleep Stage_ sowie die Zielvariable _Apnea_ aufgeteilt.
 Die Daten wurden in Trainings- (80%) und Testdaten (20%) aufgeteilt, um das Modell zu trainieren und zu evaluieren. 
-Das Modell wurde mit der Methode _DecisionTreeClassifier_ initalisiert und auf die Trainingsdaten angepasst.
-Das Modell wurde mithilfe der Testdaten evaluiert. Die Genauigkeit (Accuracy) und der Klassificationsbereich (Precision, Recall, F1-Score) wurden berechnet und gespeichert. 
-Schlussendlich wurde der Entscheidungsbaum visualisiert, um die Entscheidungsregeln und die Struktur des Baumes zu verstehen. 
+Das Modell wurde mit der Methode _DecisionTreeClassifier_ initialisiert und auf die Trainingsdaten angepasst.
+Das Modell wurde mithilfe der Testdaten evaluiert. Die Genauigkeit (Accuracy) und der Klassifikationsbereich (Precision, Recall, F1-Score) wurden berechnet und gespeichert. 
+Schlussendlich wurde der Entscheidungsbaum visualisiert, um die Entscheidungsregeln und die Struktur des Baumes zu verstehen.
 
-Der entsprechende Code ist in diesem Notebook zu finden: https://github.com/AnnaGass/DSA-SleepHealthData/blob/0ba7a382aff9470d099e13d851e01b85045741f4/DecisionTree.ipynb
+Der entsprechende Code ist im folgenden Notebook zu finden: https://github.com/AnnaGass/DSA-SleepHealthData/blob/0ba7a382aff9470d099e13d851e01b85045741f4/DecisionTree.ipynb
 
 ### 4.2 Methode 2: multivariante Regression und Korrelationsmatrix 
 
-Als zweite Methode wurde eine Korrelationsmatrix sowie eine multivariante Regression erstellt, um die liniearen Beziehungen zwischen den Variablen _SpO2, Puls_ und _Apnoe_ zu analysieren. 
+Als zweite Methode wurde eine Korrelationsmatrix sowie eine multivariate Regression erstellt, um die linearen Beziehungen zwischen den Variablen _SpO2, Puls_ und _Apnoe_ zu analysieren.
 
 Zuerst wurde aus einer CSV-Datei der Datensatz geladen und nicht relevanten Spalten wurden entfernt. Ergänzend wurden kategorische Merkmale in numerische Werte konvertiert. 
-Die Korrelationen zwischen den verbliebenden numerischen Variablen wurden berechnet und al Korrelationsmatrix gepseichert. 
-Zur visuellen Darstellung der Korrelationsmatrix wurde eine Heatmap der Korrelationsmatrix erstellt, die die Stärke und Richtung der Korrelationen visuell darstellen. 
+Die Korrelationen zwischen den verbliebenden numerischen Variablen wurden berechnet und al Korrelationsmatrix gespeichert. 
+Zur visuellen Darstellung der Korrelationsmatrix wurde eine Heatmap der Korrelationsmatrix erstellt, die die Stärke und Richtung der Korrelationen visuell darstellen.
 
 
 
