@@ -36,7 +36,7 @@ Um die Ziele in messbare, zeitgebundene und klare Vorgaben zu definieren werden 
 Gewinnung und Konvertierung von klinischen Daten in für das Modell nutzbare Daten.
 
 **SMART-Zielformulierung:**
-Die Datenaufbereitung ist abgeschlossen, wenn innerhalb von xxx Monaten 100% der klinischen Daten bereinigt, normalisiert und konvertiert wurden und in einem für das Modell verwendbaren Format vorliegen.
+Die Datenaufbereitung ist abgeschlossen, wenn innerhalb von einem Monat 100% der klinischen Daten bereinigt, normalisiert und konvertiert wurden und in einem für das Modell verwendbaren Format vorliegen.
 
 **Specific:** Die klinischen Daten müssen so vor- und aufbereitet werden, dass sie mit dem Machine-Learning-Modell genutzt werden können. Das beinhaltet das Bereinigen, Normalisieren und Konvertieren der Daten.
 
@@ -46,7 +46,7 @@ Die Datenaufbereitung ist abgeschlossen, wenn innerhalb von xxx Monaten 100% der
 
 **Relevant:** Eine präzise und vollständige Datenaufbereitung ist entscheidend für die Genauigkeit des Modells und damit den Erfolg des gesamten Projekts.
 
-**Time-bounded:** Die Datenaufbereitung muss innerhalb von xxx abgeschlossen werden.
+**Time-bounded:** Die Datenaufbereitung muss innerhalb von 4 Wochen abgeschlossen werden.
 
 ![Preparation of Data](https://raw.githubusercontent.com/AnnaGass/DSA-SleepHealthData/c90d1071f9640b0ab6695decd131f6dafb6a4f42/Flow1.drawio.png)
 
@@ -65,7 +65,7 @@ Ein Machine-Learning-Modell zur Erkennung von Schlafapnoe-Phasen wird innerhalb 
 
 **Relevant:** Die Modellgenauigkeit ist entscheidend für die zuverlässige Erkennung von Schlafapnoe und damit die Akzeptanz und den Erfolg des Projekts. 
 
-**Time-bounded:** Das Modell muss innerhalb von xxx nach Abschluss der Datenaufbereitung entwickelt und getestet werden. 
+**Time-bounded:** Das Modell muss innerhalb von 3 Wochen nach Abschluss der Datenaufbereitung entwickelt und getestet werden. 
 
 ![Data Analysis + Model Creation](https://github.com/AnnaGass/DSA-SleepHealthData/blob/34ccfd4f38311f0dfc050df18122f38fbaeb79b6/flows/Flow2.drawio.png)
 
@@ -84,7 +84,7 @@ Die Hypothese, dass Schlafapnoe mithilfe von Wearable-Daten erkannt werden kann,
 
 **Relevant:** Die Validierung der Hypothese ist entscheidend, um die klinische Nützlichkeit und den praktischen Einsatz des Modells zu bestätigen.
 
-**Time-bounded:** Die Hypothesenvalidierung muss innerhalb von xxx Monaten nach der Modellentwicklung abgeschlossen sein. 
+**Time-bounded:** Die Hypothesenvalidierung muss innerhalb von 3 Wochen nach der Modellentwicklung abgeschlossen sein. 
 
 ![Hypothesis Validation](https://github.com/AnnaGass/DSA-SleepHealthData/blob/354c2d079c5b08daed40b96d017ccceba6922886/Flow3.drawio.png)
 
