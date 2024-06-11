@@ -197,9 +197,7 @@ Zuerst wurde aus einer CSV-Datei der Datensatz geladen und nicht relevanten Spal
 Die Korrelationen zwischen den verbliebenden numerischen Variablen wurden berechnet und al Korrelationsmatrix gespeichert. 
 Zur visuellen Darstellung der Korrelationsmatrix wurde eine Heatmap der Korrelationsmatrix erstellt, die die Stärke und Richtung der Korrelationen visuell darstellen.
 
-
-
-
+Der entsprechende Code ist im folgenden Notebook zu finden: https://github.com/AnnaGass/DSA-SleepHealthData/blob/c499f0f1159e13fe0c054e3f0cc27bda6a2deef9/multivariante_Regression_und_Korrelationsmatrix.ipynb
 
 
 
