@@ -187,13 +187,15 @@ Das Modell wurde mit der Methode _DecisionTreeClassifier_ initalisiert und auf d
 Das Modell wurde mithilfe der Testdaten evaluiert. Die Genauigkeit (Accuracy) und der Klassificationsbereich (Precision, Recall, F1-Score) wurden berechnet und gespeichert. 
 Schlussendlich wurde der Entscheidungsbaum visualisiert, um die Entscheidungsregeln und die Struktur des Baumes zu verstehen. 
 
-### 4.2 Methode 2: Korrelationsmatrix
+Der entsprechende Code ist in diesem Notebook zu finden: https://github.com/AnnaGass/DSA-SleepHealthData/blob/0ba7a382aff9470d099e13d851e01b85045741f4/DecisionTree.ipynb
 
-Als zweite Methode wurde eine Korrelationsmatrix erstellt, um die liniearen Beziehungen zwischen den Variablen _SpO2, Puls_ und _Apnoe_ zu analysieren. 
+### 4.2 Methode 2: multivariante Regression und Korrelationsmatrix 
+
+Als zweite Methode wurde eine Korrelationsmatrix sowie eine multivariante Regression erstellt, um die liniearen Beziehungen zwischen den Variablen _SpO2, Puls_ und _Apnoe_ zu analysieren. 
 
 Zuerst wurde aus einer CSV-Datei der Datensatz geladen und nicht relevanten Spalten wurden entfernt. Ergänzend wurden kategorische Merkmale in numerische Werte konvertiert. 
 Die Korrelationen zwischen den verbliebenden numerischen Variablen wurden berechnet und al Korrelationsmatrix gepseichert. 
-Zur visuellen Darstellung wurde eine Heatmap der Korrelationsmatrix erstellt, die die Stärke und Richtung der Korrelationen visuell darstellen. 
+Zur visuellen Darstellung der Korrelationsmatrix wurde eine Heatmap der Korrelationsmatrix erstellt, die die Stärke und Richtung der Korrelationen visuell darstellen. 
 
 
 
