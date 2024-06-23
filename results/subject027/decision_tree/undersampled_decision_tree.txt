@@ -1,0 +1,11 @@
+Accuracy: 0.5180722891566265
+Classification Report:
+              precision    recall  f1-score   support
+
+       Apnea       0.56      0.42      0.48       520
+   Hypoapnea       0.45      0.60      0.51       478
+     Nothing       0.58      0.54      0.56       496
+
+    accuracy                           0.52      1494
+   macro avg       0.53      0.52      0.52      1494
+weighted avg       0.53      0.52      0.52      1494
