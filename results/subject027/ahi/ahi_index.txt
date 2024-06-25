@@ -1,0 +1,5 @@
+Number of Apnea Events: 2489
+Number of Hypopnea Events: 3104
+Number of Nothing Events: 21190
+Total Sleep Time in Hours: 7.44
+Total AHI Index: 751.78

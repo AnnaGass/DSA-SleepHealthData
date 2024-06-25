@@ -1,0 +1,29 @@
+Mean Squared Error: 0.4519180140685941R-squared: 0.03946184531819075                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                  Apnea   R-squared:                       0.036
+Model:                            OLS   Adj. R-squared:                  0.035
+Method:                 Least Squares   F-statistic:                     263.0
+Date:                Tue, 25 Jun 2024   Prob (F-statistic):          1.21e-167
+Time:                        08:19:46   Log-Likelihood:                -21368.
+No. Observations:               21426   AIC:                         4.274e+04
+Df Residuals:                   21422   BIC:                         4.278e+04
+Df Model:                           3                                         
+Covariance Type:            nonrobust                                         
+===============================================================================
+                  coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------
+const           5.8791      0.236     24.885      0.000       5.416       6.342
+SpO2           -0.0525      0.002    -22.001      0.000      -0.057      -0.048
+Pulse          -0.0094      0.001    -10.582      0.000      -0.011      -0.008
+Sleep Stage     0.0279      0.004      7.019      0.000       0.020       0.036
+==============================================================================
+Omnibus:                     6429.107   Durbin-Watson:                   1.989
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):            14313.476
+Skew:                           1.789   Prob(JB):                         0.00
+Kurtosis:                       4.797   Cond. No.                     6.51e+03
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 6.51e+03. This might indicate that there are
+strong multicollinearity or other numerical problems.
