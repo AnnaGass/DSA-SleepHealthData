@@ -148,7 +148,7 @@ Die Architektur besteht aus mehreren Hauptkomponenten: Datenakquise, Datenverarb
 #### Datenakquise
 Die Daten werden von der PhysioNet-Plattform bezogen, wo sie als .rec und .txt Dateien für verschiedene Patienten zur Verfügung stehen. Die Dateien enthalten klinische Messdaten und Annotationen zur Schlafphase und zu Atmungsereignissen. Diese Daten werden mittels Skriptbefehlen heruntergeladen und lokal gespeichert, um eine schnelle und wiederholbare Verarbeitung zu ermöglichen.
 
-#### Datenverarbeitung
+#### Datapreparation
 Nach dem Herunterladen der Daten folgt die Verarbeitung:
 
 * **Signalverarbeitung**: Die Rohsignale (z.B. SpO2, Puls) werden aus den .rec Dateien extrahiert und in CSV-Dateien formatiert.
@@ -170,15 +170,36 @@ Zur Überprüfung der Datenqualität und zur Darstellung der Analyseergebnisse w
 * **Python**: Als Hauptprogrammiersprache für das Projekt
 * **Jupyter Notebook**: Um die Übersicht des Projekts zu erleichtern
 
-## 4. Methoden
+Der entsprechende Code ist im Notebook _01_DataPreparation.ipynb_ zu finden.
+
+## 4. Datavisualization
+Die vorbereiteten Daten werden im Notebook _02_DataVisualizations.ipynb_ visualisiert. 
+Hierzu wurden zur Darstellung der Daten Histogramme und Boxplots unter Verwendung der Python-Bibliotheken matplotlib und seaborn erstellt.
+Die Visualisierungen bieten einen umfassenden Überblick über wichitge Metirken im Datensatz und zeigen die Verteilung sowie die zusammenhänge zwischen Puls, SpO2, Schlafstadien und Apnoe-Ereignisse.
+
+Ergebnisse: 
+|  | Subject 020 | Subject 024 | Subject 027 |
+|--------|--------|--------|--------|
+| Verteilung der Herzfrequenz (Puls)| ![Verteilung der Herzfrequenz (Puls) sub20](https://github.com/AnnaGass/DSA-SleepHealthData/blob/80036e0f824574d7a01b7340497dc257d724ebe7/results/subject020/histograms/Pulse.png) | ![Verteilung der Herzfrequenz (Puls) sub24](https://github.com/AnnaGass/DSA-SleepHealthData/blob/80036e0f824574d7a01b7340497dc257d724ebe7/results/subject024/histograms/Pulse.png) | ![Verteilung der Herzfrequenz (Puls) sub27](https://github.com/AnnaGass/DSA-SleepHealthData/blob/80036e0f824574d7a01b7340497dc257d724ebe7/results/subject027/histograms/Pulse.png) |
+| Verteilung der Sauerstoffsättigung (SpO2)| ![Verteilung der Sauerstoffsättigung (SpO2) sub20](https://github.com/AnnaGass/DSA-SleepHealthData/blob/80036e0f824574d7a01b7340497dc257d724ebe7/results/subject020/histograms/Sp02.png) | ![Verteilung der Sauerstoffsättigung (SpO2) sub24](https://github.com/AnnaGass/DSA-SleepHealthData/blob/80036e0f824574d7a01b7340497dc257d724ebe7/results/subject024/histograms/Sp02.png) | ![Verteilung der Sauerstoffsättigung (SpO2) sub27](https://github.com/AnnaGass/DSA-SleepHealthData/blob/80036e0f824574d7a01b7340497dc257d724ebe7/results/subject027/histograms/Sp02.png) |
+| Verteilung der Schlafstadien| ![Verteilung der Schlafstadien sub20](https://github.com/AnnaGass/DSA-SleepHealthData/blob/80036e0f824574d7a01b7340497dc257d724ebe7/results/subject020/histograms/SleepStage.png)| ![Verteilung der Schlafstadien sub24](https://github.com/AnnaGass/DSA-SleepHealthData/blob/80036e0f824574d7a01b7340497dc257d724ebe7/results/subject024/histograms/SleepStage.png) | ![Verteilung der Schlafstadien sub27](https://github.com/AnnaGass/DSA-SleepHealthData/blob/80036e0f824574d7a01b7340497dc257d724ebe7/results/subject027/histograms/SleepStage.png) |
+| Verteilung der Apnoe-Ereignisse| ![Verteilung der Apnoe-Ereignisse sub20](https://github.com/AnnaGass/DSA-SleepHealthData/blob/80036e0f824574d7a01b7340497dc257d724ebe7/results/subject020/histograms/Apnea.png) | ![Verteilung der Apnoe-Ereignisse sub24](https://github.com/AnnaGass/DSA-SleepHealthData/blob/80036e0f824574d7a01b7340497dc257d724ebe7/results/subject024/histograms/Apnea.png) | ![Verteilung der Apnoe-Ereignisse sub27](https://github.com/AnnaGass/DSA-SleepHealthData/blob/80036e0f824574d7a01b7340497dc257d724ebe7/results/subject027/histograms/Apnea.png) |
+| Puls in verschiedenen SpO2-Kategorien| ![Puls in verschiedenen SpO2-Kategorien sub20](https://github.com/AnnaGass/DSA-SleepHealthData/blob/80036e0f824574d7a01b7340497dc257d724ebe7/results/subject020/boxplots/Sp02Cat-Pulse.png) | ![Puls in verschiedenen SpO2-Kategorien sub24](https://github.com/AnnaGass/DSA-SleepHealthData/blob/80036e0f824574d7a01b7340497dc257d724ebe7/results/subject024/boxplots/Sp02Cat-Pulse.png)| ![Puls in verschiedenen SpO2-Kategorien sub27](https://github.com/AnnaGass/DSA-SleepHealthData/blob/80036e0f824574d7a01b7340497dc257d724ebe7/results/subject027/boxplots/Sp02Cat-Pulse.png) |
+| Puls in verschiedenen Schlafstadien| ![Puls in verschiedenen Schlafstadien sub20](https://github.com/AnnaGass/DSA-SleepHealthData/blob/80036e0f824574d7a01b7340497dc257d724ebe7/results/subject020/boxplots/Pulse-SleepPhase.png) | ![Puls in verschiedenen Schlafstadien sub24](https://github.com/AnnaGass/DSA-SleepHealthData/blob/80036e0f824574d7a01b7340497dc257d724ebe7/results/subject024/boxplots/Pulse-SleepPhase.png)| ![Puls in verschiedenen Schlafstadien sub27](https://github.com/AnnaGass/DSA-SleepHealthData/blob/80036e0f824574d7a01b7340497dc257d724ebe7/results/subject027/boxplots/Pulse-SleepPhase.png) |
+| SpO2 in verschiedenen Schlafstadien| ![SpO2 in verschiedenen Schlafstadien sub20](https://github.com/AnnaGass/DSA-SleepHealthData/blob/80036e0f824574d7a01b7340497dc257d724ebe7/results/subject020/boxplots/SpO2-SleepPhase.png) | ![SpO2 in verschiedenen Schlafstadien sub24](https://github.com/AnnaGass/DSA-SleepHealthData/blob/80036e0f824574d7a01b7340497dc257d724ebe7/results/subject024/boxplots/SpO2-SleepPhase.png)| ![SpO2 in verschiedenen Schlafstadien sub27](https://github.com/AnnaGass/DSA-SleepHealthData/blob/80036e0f824574d7a01b7340497dc257d724ebe7/results/subject027/boxplots/SpO2-SleepPhase.png) |
+| SpO2 in verschiedenen Apnoe-Phasen| ![SpO2 in verschiedenen Apnoe-Phasen sub20](https://github.com/AnnaGass/DSA-SleepHealthData/blob/80036e0f824574d7a01b7340497dc257d724ebe7/results/subject020/boxplots/Apnea-Sp02.png) | ![SpO2 in verschiedenen Apnoe-Phasen sub24](https://github.com/AnnaGass/DSA-SleepHealthData/blob/80036e0f824574d7a01b7340497dc257d724ebe7/results/subject024/boxplots/Apnea-Sp02.png)| ![SpO2 in verschiedenen Apnoe-Phasen sub27](https://github.com/AnnaGass/DSA-SleepHealthData/blob/80036e0f824574d7a01b7340497dc257d724ebe7/results/subject027/boxplots/Apnea-Sp02.png) |
+
+## 5. Methoden
 
 In diesem Kapitel werden die Methoden beschrieben, die zur Untersuchung der Fragestellung verwendet werden: 
 Inwieweit beeinflusst der Sauerstoffgehalt (SpO2) und der Puls das Auftreten von Apnoe? 
 Die hierfür verwendeten Methoden sind ein Entscheidungsbaum, eine multivariate Regression und eine Korrelationsmatrix.
 
-### 4.1 Methode 1: Entscheidungsbaum 
+### 5.1 Methode 1: Entscheidungsbaum 
 
 Als erste Methode wurde ein Entscheidungsbaum verwendet, um die Beziehung zwischen dem Sauerstoffgehalt (SpO2), dem Puls und dem Auftreten von Apnoe zu modellieren.
+
+In diesem Modell werden die Daten in Trainings- und Testsets aufgeteilt und ein Entscheidungsbaum trainiert. Die Leistung wird anhand von Metriken wie Genauigkeit und Klassifikationsbericht evaluiert. 
 
 Nachdem der Datensatz aus einer CSV-Dateie geladen wurde, wurden die Variablen _SpO2_ und _Pulse Range_ in numerische Werte konvertiert.
 Danach wurden die Merkmale _SpO2_Category_Transformed, Pulse_Range_Transformed, Sleep Stage_ sowie die Zielvariable _Apnea_ aufgeteilt.
@@ -187,15 +208,94 @@ Das Modell wurde mit der Methode _DecisionTreeClassifier_ initialisiert und auf 
 Das Modell wurde mithilfe der Testdaten evaluiert. Die Genauigkeit (Accuracy) und der Klassifikationsbereich (Precision, Recall, F1-Score) wurden berechnet und gespeichert. 
 Schlussendlich wurde der Entscheidungsbaum visualisiert, um die Entscheidungsregeln und die Struktur des Baumes zu verstehen.
 
+Nachdem die Größe des Testdatensatzes auf 40% erhöht wurde, zeigt das Modell ähnliche Muster wie zuvor, jedoch mit einem größeren Testdatensatz. Die Herausforderung besteht nun darin, mit dem Klassenungleichgewicht umzugehen.
+
+Accuracy: 0.5180722891566265
+**Classification Report:**
+
+|  | precision | recall | f1-score  | support |
+|--------|--------|--------|--------|--------|
+|Apnea|0.56|0.42|0.48|320|
+|Hypoapnea|0.45|0.60|0.51|478|
+|Nothing|0.58|0.54|0.56|496|
+||||||
+|accuracy|||0.52|1494|
+|macro avg|0.53|0.52|0.52|1494|
+|weighted avg|0.53|0.52|0.52|1494|
+
+![decisionTree sub27](https://github.com/AnnaGass/DSA-SleepHealthData/blob/80036e0f824574d7a01b7340497dc257d724ebe7/results/subject027/decision_tree/decision_tree.png)
+
+**Interpretation der Ergebnisse**
+* Hohe Genauigkeit für "Nothing": Das Modell zeigt eine gute Leistung bei der Erkennung von Instanzen, in denen "Noting" vorkommt, was sich in einer höhen _prcision_, einem hohen _recall_ und einem hohen _f1-score_ ezgit. Die Klasse weit auch die höchste Anzahl von Instanzen auf, was die Gesamtgenauigkeit erheblich beeinflusst
+* Geringe Leistung bei Apnoe und Hypoapnoe: Das Modell hat Schwierigkeiten Apnoe- und Hypoapnoe-Ereignisse korrekt zu identifizieren, da die _precision_, _recall_ und _f1-score_ fpr beide Klassen niedrig sind. Dies deutet darauf hin, dass das MOdell diese Ereignises weniger gut voneinander und von "Nothing"-Ereignissen unterscheiden kann
+* Unausgewogene Klassen: Die UNterstützungswerte zeigen ein erhobeliches Klassenungleichgewicht, mit viel mehr Instanzen kann zu der schlechten Leistung des Modells bei den weniger vertretenen Klassen (Apnoe und Hypoapnoe) beitragen.
+
+Dieses Modell verwendet eine Technik der Random Under Sampling um das Ungleichgewicht zwischen den Klassen zu adressieren. Durch diese Vorverarbeitung werden weniger Instanden der dominanten Klasse ("Nothing") verwendet, um ein ausgewogeneres Trainingsset zu erstellen. Die Leistung des Modells verbessert sich in Bezug auf die Erkennung von Apnoe- Und Hypoapnoe-Ereignissen, obwohl die Gesamtgenauigkeit etwas sinken kann. 
+
+Accuracy: 0.7924211312301661
+**Classification Report:**
+
+|  | precision | recall | f1-score  | support |
+|--------|--------|--------|--------|--------|
+|Apnea|0.42|0.16|0.23|496|
+|Hypoapnea|0.46|0.10|0.17|4201|
+|Nothing|0.82|0.98|0.89|4201|
+||||||
+|accuracy|||0.79|5357|
+|macro avg|0.57|0.41|0.43|5357|
+|weighted avg|0.74|0.79|0.74|5357|
+
+![decisionTree sub27](https://github.com/AnnaGass/DSA-SleepHealthData/blob/80036e0f824574d7a01b7340497dc257d724ebe7/results/subject027/decision_tree/decision_tree.png)
+         
+**Interpretation der Ergebnisse**
+
+* Verbesserte Balance: Die metriken für Apnoe- und Hypoapnoe-Ereignisse haben sich im verlgiech zu den initalien Ergebnissen verbessert, was darauf hinweist, dass das Modell jetzt besser in der Lage ist, die Klassen zu identifizieren.
+* Ausgeglichene Leistung: Die _pecision_, _recall_ und _f1-score_ sin dnun ausgewogener über alle drei Klassen verteilt.
+* Recall für Hypoapnoe: Das Modell zeigt einen relativ guten Rückrüf für Hypoapnoe (0.60), was bedeutet, dass es 60% der Hypoapnoe-Instanzen identifiziert. 
+
 Der entsprechende Code ist im folgenden Notebook zu finden: https://github.com/AnnaGass/DSA-SleepHealthData/blob/0ba7a382aff9470d099e13d851e01b85045741f4/DecisionTree.ipynb
 
-### 4.2 Methode 2: multivariante Regression und Korrelationsmatrix 
+### 5.2 Methode 2: multivariante Regression
 
-Als zweite Methode wurde eine Korrelationsmatrix sowie eine multivariate Regression erstellt, um die linearen Beziehungen zwischen den Variablen _SpO2, Puls_ und _Apnoe_ zu analysieren.
+Als zweite Methode wurde ein multivariantes Regressionsmodell entwickelt, um Apnoe-Ereignisse basierend auf physiologischen Parametern vorherzusagen. Das Modell verwendet die Variablen SpO2, Puls und Schlafstadium als Prädiktoren für das Auftreten von Apnoe. 
 
-Zuerst wurde aus einer CSV-Datei der Datensatz geladen und nicht relevanten Spalten wurden entfernt. Ergänzend wurden kategorische Merkmale in numerische Werte konvertiert. 
-Die Korrelationen zwischen den verbliebenden numerischen Variablen wurden berechnet und al Korrelationsmatrix gespeichert. 
-Zur visuellen Darstellung der Korrelationsmatrix wurde eine Heatmap der Korrelationsmatrix erstellt, die die Stärke und Richtung der Korrelationen visuell darstellen.
+Mean Squared Error: 0.4519180140685941R-squared: 0.03946184531819075
+
+|Dep. Variable|Apnea||R-squared|0.036|
+|--------|--------|--------|--------|--------|
+|Model|OLS||Adj. R-squared|0.035|
+|Method|Least Squares||F-statistic|263.0|
+|Date|Tue, 25 Jun 2024||Prob (F-statistic)|1.21e-167|
+|Time|08:19:46||Log-Likelihood|-21368.|
+|No. Observations|21426||AIC|4.274e+04|
+|Df Residuals|21426||BIC|4.274e+04|
+|Df Model|3||||
+|Covariance Type|nonrobust||||
+
+||coef|std err|t|P > t |[0.025|0.975]|
+|--------|--------|--------|--------|--------|--------|--------|
+|const|5.8791|0.236|24.885|0.000|5.416|6.342|
+|SpO2|-0.0525|0.002|-22.001|0.000|-0.057|-0.048|
+|Pulse|-0.0094|0.001|-10.582|0.000|-0.011|-0.008|
+|Sleep Stage|0.004|0.236|7.019|0.000|0.020|0.036|
+
+|Omnibus|6429.107||Durbin-Watson|1.989|
+|--------|--------|--------|--------|--------|
+|Prob(Omnibus)|0.000||Jarque-Bera (JB)|14313.476|
+|Skew|1.789||Prob(JB)|0.00|
+|Kurtosis|4.797||Cond. No.|6.51e+03|
+
+Anmerkung: 
+* Die Standardfehler setzen voraus, dass die Kovarianzmatrix der Fehler korrekt angegeben ist
+* Die Bedingungszahl ist groß, 6.51e+03. Das könnte darauf hindeuten, dass es starte Multikollinearität oder andere numerische Probleme gibt.
+
+
+![ResidualPlot sub27](https://github.com/AnnaGass/DSA-SleepHealthData/blob/80036e0f824574d7a01b7340497dc257d724ebe7/results/subject027/regression/Regression_Residual_Plot.png)
+
+![Regression actual vs prdicted sub27](https://github.com/AnnaGass/DSA-SleepHealthData/blob/80036e0f824574d7a01b7340497dc257d724ebe7/results/subject027/regression/Regression_Actual_vs_Predicted_Plot.png)
+
+Das Modell zeigt, dass sowohl die SpO2 als auch der Puls signifikante Prädiktoren für Apnoe sind, obwohl das Modell nur einen kleinen Teil der Varianz (3.3%) in Apnoe erklärt. Weitere Untersuchungen oder zusätzliche Prädiktoren könnten notwendig sein, um ein besser erklärendes Modell zu entwickeln.
+
 
 Der entsprechende Code ist im folgenden Notebook zu finden: https://github.com/AnnaGass/DSA-SleepHealthData/blob/c499f0f1159e13fe0c054e3f0cc27bda6a2deef9/multivariante_Regression_und_Korrelationsmatrix.ipynb
 
