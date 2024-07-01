@@ -11,6 +11,14 @@ Sofie Haas,
 Tristan Gräble,
 David Silva Goncalves
 
+**Versionierung**
+
+| Version | Datum | Details | 
+|--------|--------|--------|
+|V1.0|15.05.2024|Projektskizze + Datenaufbereitung|
+|V2.0|12.06.2024|Dokumentation + Modellerstellung|
+|V3.0|03.07.2024|Dokumentation + Modellerstellung|
+
 **Zeitraum des Semesterprojekts**: 03.04.2024 - 03.07.2024 
 
 ## 1. Beschreibung der Problematik
@@ -115,6 +123,16 @@ Die Entscheidung für diese Daten fiel anhand der folgenden Kriterien (sortiert 
 5. Die Quelle ist eine Kooperation der St. Vincent´s University Hospital / University College Dublin. Dies macht die Daten zu glaubwürdigen Daten.
 6. Es gibt eine "Open Data Commons Attribution License V1.0".
 7. Es gibt zitierfähige Publikationen (z.B. https://ieeexplore.ieee.org/document/9864566).
+
+**Datenschutz**
+
+Die verwendeten Daten stammen aus einer öffentlich zugänglichen Forschungsdatenbank und wurden in Übereinstimmung mit den Datenschutzrichtlinien erhoben und veröffentlicht.
+
+Bei der Verarbeitung werden die folgenden Grundsätze der Datenschutz-Grundverordnung (DSGVO) beachtet: 
+* Rechtmäßigkeit, Verarbeitung nach Treu und Glauben, Transparenz: Die Daten werden rechtmäßig, fair und transparent verarbeitet
+* Zweckbindung: Die Daten werden nur für die Erstellung des klinischen Modells verwendet
+* Datenminimierung: Es werden nur die für das Modell notwendigen Daten verwendet
+* Speicherbegrenzung: Die Daten werden nur so lange gespeichert, wie es für die Erreichung der Projektziele notwenig ist
 
 ### 3.2 Installationsanleitung
 
@@ -298,6 +316,24 @@ Das Modell zeigt, dass sowohl die SpO2 als auch der Puls signifikante Prädiktor
 
 
 Der entsprechende Code ist im folgenden Notebook zu finden: https://github.com/AnnaGass/DSA-SleepHealthData/blob/c499f0f1159e13fe0c054e3f0cc27bda6a2deef9/multivariante_Regression_und_Korrelationsmatrix.ipynb
+
+## 6. Ausblick
+
+Die folgenden Schritte müssen als nächstes durchgeführt werden, um das Projekt weiterzuführen: 
+
+* Wearables-Daten Beschaffen
+* Aufbereitung der Wearables-Daten  
+* Verbesserung unser Modell mit Wearbelldaten
+
+* Modellanpassung
+   * Modelle mehr Trainingsdaten bereitstellen
+   * Erweiterung der Analysierten Objekte
+   * Fokussierung auf den Wearable Kontext
+   * Validierung der Endlösung
+
+
+
+ 
 
 
 
