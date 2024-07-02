@@ -17,7 +17,7 @@ David Silva Goncalves
 |--------|--------|--------|
 |V1.0|15.05.2024|Projektskizze + Datenaufbereitung|
 |V2.0|12.06.2024|Dokumentation + Modellerstellung|
-|V3.0|03.07.2024|Dokumentation + Modellerstellung|
+|V3.0|03.07.2024|Dokumentation + Modelloptimierung|
 
 **Zeitraum des Semesterprojekts**: 03.04.2024 - 03.07.2024 
 
@@ -321,14 +321,14 @@ Der entsprechende Code ist im folgenden Notebook zu finden: https://github.com/A
 
 Die folgenden Schritte müssen als nächstes durchgeführt werden, um das Projekt weiterzuführen: 
 
-* Wearables-Daten Beschaffen
+* Wearables-Daten beschaffen
 * Aufbereitung der Wearables-Daten  
-* Verbesserung unser Modell mit Wearbelldaten
+* Verbesserung des Modells mit Wearable-Daten
 
 * Modellanpassung
-   * Modelle mehr Trainingsdaten bereitstellen
-   * Erweiterung der Analysierten Objekte
-   * Fokussierung auf den Wearable Kontext
+   * Modellen mehr Trainingsdaten bereitstellen
+   * Erweiterung der analysierten Objekte
+   * Fokussierung auf den Wearable-Kontext
    * Validierung der Endlösung
 
 
